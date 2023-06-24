@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+:root {
+  --primary-color: #7b61ff;
+  --primary2-color: #917cff;
+  --secondary-color: #80858b;
+  --contextual-error: #ff5154;
+  --contextual-light: #afb2b6;
+  --contextual-white: #ffffff;
+  --background-dark: #000000;
+  --background-medium-dark: #242426;
+  --background-light-dark: #323537;
+  --tertiary-green: #00a340;
+  --tertiary-yellow: #f3a608;
+  --tertiary-orange: #f45d2d;
+
+  --text-color: var(--background-light-dark);
+  --text-white-color: var(--contextual-white);
+  --text-light-color: var(--contextual-light);
+}
+
+// :root.light {
+//   --tms-secondary-color: #8d8e97;
+//   --tms-background-medium-color: #3a3838;
+//   --tms-background-light-color: #4a4848;
+//   --tms-background-extra-light-color: #5a5858;
+//   --tms-text-color: white;
+// }
+
+body {
+  background-color: var(--background-dark);
+  font-family: 'Exo 2';
+  color: var(--secondary-color);
+}
+
+h1 {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--background-light-dark);
+}
+
+h2 {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--background-light-dark);
+}
