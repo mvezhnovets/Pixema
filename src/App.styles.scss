@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
   --primary-color: #7b61ff;
@@ -19,18 +19,12 @@
   --text-light-color: var(--contextual-light);
 }
 
-// :root.light {
-//   --tms-secondary-color: #8d8e97;
-//   --tms-background-medium-color: #3a3838;
-//   --tms-background-light-color: #4a4848;
-//   --tms-background-extra-light-color: #5a5858;
-//   --tms-text-color: white;
-// }
-
 body {
   background-color: var(--background-dark);
   font-family: 'Exo 2';
   color: var(--secondary-color);
+  margin: 0;
+  padding: 0;
 }
 
 h1 {

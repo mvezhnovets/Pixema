@@ -1,5 +1,10 @@
 import './App.styles.scss';
+import { Button } from '~/shared/ui/Button/Button';
 
 export const App = () => {
-  return 1;
+  return (
+    <>
+      <Button text={'sdfsdf'} />
+    </>
+  );
 };
