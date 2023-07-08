@@ -1,10 +1,10 @@
 import './App.styles.scss';
-import { Button } from '~/shared/ui/Button/Button';
+import { SearchBar } from './features/NavBar/SearchBar/SearchBar';
 
 export const App = () => {
   return (
     <>
-      <Button text={'sdfsdf'} />
+      <SearchBar />
     </>
   );
 };
