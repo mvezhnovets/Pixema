@@ -1,10 +1,11 @@
 import './App.styles.scss';
-import { SearchBar } from './features/NavBar/SearchBar/SearchBar';
+
+import { NavBar } from './features/NavBar/NavBar';
 
 export const App = () => {
   return (
     <>
-      <SearchBar />
+      <NavBar />
     </>
   );
 };
