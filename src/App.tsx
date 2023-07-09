@@ -1,10 +1,11 @@
 import './App.styles.scss';
-import { Button } from '~/shared/ui/Button/Button';
+
+import { NavBar } from './features/NavBar/NavBar';
 
 export const App = () => {
   return (
     <>
-      <Button text={'sdfsdf'} />
+      <NavBar />
     </>
   );
 };
