@@ -1,11 +1,11 @@
 import './App.styles.scss';
 
-import { NavBar } from './features/NavBar/NavBar';
+import { AppRouter } from './router/AppRouter';
 
 export const App = () => {
   return (
     <>
-      <NavBar />
+      <AppRouter />
     </>
   );
 };

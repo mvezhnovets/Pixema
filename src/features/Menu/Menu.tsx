@@ -6,7 +6,7 @@ import { ReactComponent as SettingsIcon } from '~/assets/icons/Setting.svg';
 import { ReactComponent as TrendIcon } from '~/assets/icons/Trends.svg';
 
 import menuStyles from './Menu.module.scss';
-import { NavLinks } from '../NavBar.constants';
+import { NavLinks } from '../NavBar/NavBar.constants';
 
 export const Menu = ({
   appearance = menuStyles.container,
