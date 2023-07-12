@@ -28,6 +28,7 @@ export const SearchBar = () => {
         }}
       />
       <Button
+        className={searchBarStyles.button}
         icon={<Filter />}
         appearance={ButtonAppearance.IconButton}
       ></Button>

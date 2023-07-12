@@ -1,29 +1,28 @@
 .container {
-  width: 70%;
-  height: 56px;
   border-radius: 10px;
-  box-sizing: border-box;
+  border: 3px solid var(--background-light-dark);
   background-color: var(--background-light-dark);
   display: flex;
+  outline: none;
+  font-size: 20px;
   justify-content: space-between;
-  color: var(--contextual-white);
+  color: var(--contextual-light);
 
   input {
     width: 100%;
     border-radius: 10px;
     border: none;
-    width: 100%;
     outline: none;
-    padding: 16px;
+    padding: 10px;
     font-size: 20px;
     font-family: 'Exo2';
     font-weight: 500;
     line-height: 24px;
     background-color: var(--background-light-dark);
-    color: var(--contextual-white);
+    color: var(--contextual-light);
 
     &::placeholder {
-      color: var(--contextual-white);
+      color: var(--contextual-light);
       font-size: 20px;
       font-family: 'Exo2';
       font-weight: 500;

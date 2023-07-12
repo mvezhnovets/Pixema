@@ -35,7 +35,7 @@ export const Menu = ({
             <TrendIcon />
           ) : link.title === 'Favorites' ? (
             <FavoriteIcon />
-          ) : link.title === 'Settings' ? (
+          ) : link.title === 'Setting' ? (
             <SettingsIcon />
           ) : null}
           {link.title}
