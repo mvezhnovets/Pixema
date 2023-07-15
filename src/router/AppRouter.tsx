@@ -1,15 +1,25 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
+import { MainLayout } from '~/layouts/MainLayout';
+import { CardPage } from '~/pages/CardPage/CardPage';
 import { FavoritePage } from '~/pages/FavoritesPages/FavoritePage';
-import { MainPage } from '~/pages/MainPages/MainPage';
+import { Home } from '~/pages/HomePages/Home';
 import { SettingPage } from '~/pages/SettingsPages/SettingPage';
 import { TrendsPage } from '~/pages/TrendsPages/TrendsPage';
 
 export const routerSchema = createBrowserRouter([
   {
     path: '/',
-    element: <MainPage />,
+    element: <MainLayout />,
     children: [
+      {
+        index: true,
+        Component: Home
+      },
+      {
+        path: '/card/:id',
+        element: <CardPage />
+      },
       {
         path: '/trends',
         element: <TrendsPage />

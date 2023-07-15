@@ -4,16 +4,16 @@ import { Footer } from '~/features/Footer/Footer';
 import { Menu } from '~/features/Menu/Menu';
 import { NavBar } from '~/features/NavBar/NavBar';
 
-import MainStyles from './MainPageStyles.module.scss';
+import mainLayoutStyle from './MainLayouts.module.scss';
 
-export const MainPage = () => {
+export const MainLayout = () => {
   return (
     <>
-      <div className={MainStyles.wrapper}>
-        <div className={MainStyles.container}>
+      <div className={mainLayoutStyle.wrapper}>
+        <div className={mainLayoutStyle.container}>
           <NavBar />
-          <main className={MainStyles.main}>
-            <Menu appearance={MainStyles.menu} />
+          <main className={mainLayoutStyle.main}>
+            <Menu appearance={mainLayoutStyle.menu} />
             <Outlet />
           </main>
         </div>

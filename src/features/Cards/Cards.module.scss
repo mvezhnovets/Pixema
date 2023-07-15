@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex: 1 1 80%;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  & img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+  }
+}
