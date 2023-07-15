@@ -1,12 +1,51 @@
-.container {
+.card {
+  position: relative;
+  color: var(--contextual-light);
+  min-height: 430px;
+  & a {
+    color: var(--contextual-light);
+    text-decoration: none;
+  }
+  .rating {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    color: var(--text-white-color);
+  }
+  .goodRating {
+    background-color: var(--tertiary-green);
+  }
+  .usualRating {
+    background-color: var(--tertiary-yellow);
+  }
+  .badRating {
+    background-color: var(--tertiary-orange);
+  }
+}
+.main {
   display: flex;
-  flex: 1 1 80%;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 40px;
   justify-content: center;
+  & h3 {
+    margin: 5px 0;
+    color: var(--text-light-color);
+    width: 230px;
+  }
+  & p {
+    margin: 0;
+    color: var(--text-white-color);
+    font-size: 16px;
+    width: 230px;
+  }
   & img {
-    width: 250px;
-    height: 350px;
+    width: 230px;
+    height: 357px;
     object-fit: cover;
+    border-radius: 20px;
   }
 }

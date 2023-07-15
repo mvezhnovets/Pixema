@@ -21,7 +21,7 @@ export const Card = ({ card }: { card: CardAPI }) => {
                     (genre) =>
                       genre.name.charAt(0).toUpperCase() + genre.name.slice(1)
                   )
-                  .join(' . ')}
+                  .join(', ')}
             </span>
             <h1>{card.alternativeName}</h1>
             <h2>{card.name}</h2>
