@@ -1,0 +1,33 @@
+.container {
+  background-color: var(--background-dark);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  color: var(--text-white-color);
+  padding: 40px;
+  width: 40%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 25px;
+  margin: 40px 0;
+}
+
+.button {
+  max-width: 90%;
+  padding: 16px 0;
+  text-align: center;
+}
+.text {
+  margin: 0;
+}
+p {
+  text-align: center;
+}
+link {
+  text-decoration: none;
+  color: var(--primary-color);
+}

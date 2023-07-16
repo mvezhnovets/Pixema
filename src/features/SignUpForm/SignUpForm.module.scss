@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: var(--background-dark);
+  color: var(--text-white-color);
+  width: 40%;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  margin: 40px 0;
+}
+.button {
+  max-width: 100%;
+  padding: 16px 0;
+  text-align: center;
+}
+.text {
+  margin: 0;
+}

@@ -3,31 +3,33 @@
   border: 3px solid var(--background-light-dark);
   background-color: var(--background-light-dark);
   display: flex;
+  flex: 1 1 60%;
   outline: none;
   font-size: 20px;
   justify-content: space-between;
   color: var(--contextual-light);
   margin: 0 20px;
+  @media (max-width: 520px) {
+    order: 3;
+  }
+}
 
-  input {
-    width: 100%;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 10px;
+.input {
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--background-light-dark);
+  color: var(--contextual-light);
+
+  &::placeholder {
+    color: var(--contextual-light);
     font-size: 20px;
     font-family: 'Exo2';
     font-weight: 500;
     line-height: 24px;
-    background-color: var(--background-light-dark);
-    color: var(--contextual-light);
-
-    &::placeholder {
-      color: var(--contextual-light);
-      font-size: 20px;
-      font-family: 'Exo2';
-      font-weight: 500;
-      line-height: 24px;
-    }
   }
 }

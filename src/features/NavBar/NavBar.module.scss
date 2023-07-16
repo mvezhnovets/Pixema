@@ -5,6 +5,7 @@
   background-color: var(--background-dark);
   color: var(--contextual-white);
   padding-bottom: 64px;
+  gap: 10px;
   @media (max-width: 768px) {
     position: relative;
     gap: 15px;
@@ -23,19 +24,20 @@
 
     @media (max-width: 768px) {
       display: flex;
-      width: 45px;
-      height: 45px;
+      width: 40px;
+      height: 40px;
     }
   }
 
   .menu {
     color: var(--contextual-white);
     flex-direction: column;
-    // position: absolute;
+    position: absolute;
     right: 0;
     top: 50%;
     display: none;
-    border: 2px solid var(--background-light-dark);
+    border: 3px solid var(--background-light-dark);
+    border-radius: 10px;
     z-index: 1;
     width: 150px;
     background-color: var(--background-dark);
