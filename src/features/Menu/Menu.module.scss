@@ -1,7 +1,9 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding: 0 180px 0 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 185px 0 0px;
   background-color: var(--background-dark);
   gap: 40px;
   color: var(--text-white-color);
@@ -20,11 +22,5 @@
     height: 24px;
     margin-right: 23px;
     fill: currentColor;
-  }
-}
-.userBar {
-  display: none;
-  @media (max-width: 768px) {
-    display: block;
   }
 }

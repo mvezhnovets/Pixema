@@ -41,10 +41,10 @@
     z-index: 1;
     width: 150px;
     background-color: var(--background-dark);
-    transform: translateX(120%);
+    transform: translateX(125%);
     transition: transform 300ms ease-in-out;
     &[data-open='true'] {
-      transform: translateX(20%);
+      transform: translateX(0%);
     }
     @media (max-width: 768px) {
       display: flex;

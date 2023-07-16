@@ -7,7 +7,6 @@ import { ReactComponent as TrendIcon } from '~/assets/icons/Trends.svg';
 
 import menuStyles from './Menu.module.scss';
 import { NavLinks } from '../NavBar/NavBar.constants';
-import { UserBar } from '../NavBar/UserPanel/UserBar/UserBar';
 
 export const Menu = ({
   appearance = menuStyles.container,
@@ -42,9 +41,6 @@ export const Menu = ({
           {link.title}
         </NavLink>
       ))}
-      <div className={menuStyles.userBar}>
-        <UserBar isOpen={false}></UserBar>
-      </div>
     </div>
   );
 };
