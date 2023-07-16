@@ -20,10 +20,10 @@ export const SignInForm = () => {
         ></Input>
         <Button
           className={signInStyle.button}
-          text="Sing In"
+          text="Sign In"
         ></Button>
         <p>
-          Don`t have an account? <Link to={'/sign-up'}>Sign Up</Link>
+          Don`t have an account? <Link to={'/signUp'}>Sign Up</Link>
         </p>
       </div>
     </form>

@@ -15,13 +15,13 @@
   color: var(--contextual-white);
 }
 
-// .button {
-//   width: 36px;
-//   height: 36px;
-//   background-color: var(--primary-color);
-//   color: var(--contextual-white);
+.button {
+  width: 36px;
+  height: 36px;
+  background-color: var(--primary-color);
+  color: var(--contextual-white);
 
-//   &:hover:not(:disabled) {
-//     background-color: var(--primary2-color);
-//   }
-// }
+  &:hover:not(:disabled) {
+    background-color: var(--primary2-color);
+  }
+}

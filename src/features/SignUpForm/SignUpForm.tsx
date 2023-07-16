@@ -11,7 +11,7 @@ export const SignUpForm = () => {
       <h2 className={signUpStyle.text}>Sign Up</h2>
       <div className={signUpStyle.input}>
         <Input
-          label="name"
+          label="Name"
           placeholder="Enter your name"
         ></Input>
         <Input
@@ -33,7 +33,7 @@ export const SignUpForm = () => {
       ></Button>
       <p>
         {' '}
-        Already have an account? <Link to={'/sign-in'}>Sign In</Link>
+        Already have an account? <Link to={'/signIn'}>Sign In</Link>
       </p>
     </form>
   );

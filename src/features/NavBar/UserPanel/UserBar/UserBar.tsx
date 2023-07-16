@@ -10,15 +10,15 @@ export const UserBar = ({ isOpen }: { isOpen: boolean }) => {
     >
       <Link
         className={userBarStyle.link}
-        to="/sing-in"
+        to="/signIn"
       >
-        Sing In
+        Sign In
       </Link>
       <Link
         className={userBarStyle.link}
-        to="/sing-up"
+        to="/signUp"
       >
-        Sing Up
+        Sign Up
       </Link>
     </div>
   );
