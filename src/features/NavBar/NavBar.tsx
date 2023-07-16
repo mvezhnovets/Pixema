@@ -7,9 +7,10 @@ import { ReactComponent as Burger } from '~/assets/icons/Menu.svg';
 import { ReactComponent as Logo } from '~/assets/icons/pixema.svg';
 import { Button } from '~/shared/ui/Button/Button';
 
-import { Menu } from './Menu/Menu';
 import navBarStyle from './NavBar.module.scss';
 import { SearchBar } from './SearchBar/SearchBar';
+import { UserPanel } from './UserPanel/UserPanel';
+import { Menu } from '../Menu/Menu';
 
 export const NavBar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -26,6 +27,7 @@ export const NavBar = () => {
         <Logo />
       </Link>
       <SearchBar />
+      <UserPanel />
       <Button
         className={navBarStyle.burger}
         onClick={toggleBurger}
