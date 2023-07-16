@@ -23,24 +23,32 @@
 
     @media (max-width: 768px) {
       display: flex;
+      width: 45px;
+      height: 45px;
     }
   }
 
   .menu {
     color: var(--contextual-white);
     flex-direction: column;
-    position: absolute;
+    // position: absolute;
     right: 0;
     top: 50%;
     display: none;
     border: 2px solid var(--background-light-dark);
     z-index: 1;
     width: 150px;
+    background-color: var(--background-dark);
+    transform: translateX(120%);
+    transition: transform 300ms ease-in-out;
+    &[data-open='true'] {
+      transform: translateX(20%);
+    }
     @media (max-width: 768px) {
       display: flex;
     }
     @media (max-width: 520px) {
-      top: 30%;
+      top: 60%;
     }
   }
   a {

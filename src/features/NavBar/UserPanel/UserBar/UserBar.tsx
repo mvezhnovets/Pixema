@@ -8,8 +8,18 @@ export const UserBar = ({ isOpen }: { isOpen: boolean }) => {
       data-open={isOpen}
       className={userBarStyle.container}
     >
-      <Link to="/sing-in">Sing In</Link>
-      <Link to="/sing-up">Sing Up</Link>
+      <Link
+        className={userBarStyle.link}
+        to="/sing-in"
+      >
+        Sing In
+      </Link>
+      <Link
+        className={userBarStyle.link}
+        to="/sing-up"
+      >
+        Sing Up
+      </Link>
     </div>
   );
 };
