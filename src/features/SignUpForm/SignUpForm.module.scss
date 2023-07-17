@@ -6,6 +6,9 @@
   background-color: var(--background-dark);
   color: var(--text-white-color);
   width: 40%;
+  @media (max-width: 768px) {
+    width: 70%;
+  }
   .input {
     display: flex;
     flex-direction: column;
