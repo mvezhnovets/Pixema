@@ -11,7 +11,13 @@ export const Card = ({ card }: { card: CardAPI }) => {
       {card ? (
         <div className={cardStyle.container}>
           <div>
-            {(card.poster && <img src={card.poster.url}></img>) || null}
+            {(card.poster && (
+              <img
+                className={cardStyle.img}
+                src={card.poster.url}
+              ></img>
+            )) ||
+              null}
           </div>
           <div className={cardStyle.text}>
             <span className={cardStyle.genres}>

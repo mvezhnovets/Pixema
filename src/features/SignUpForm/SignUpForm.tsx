@@ -12,15 +12,15 @@ export const SignUpForm = () => {
       <div className={signUpStyle.input}>
         <Input
           label="Name"
-          placeholder="Enter your name"
+          placeholder="Enter name"
         ></Input>
         <Input
           label="Email"
-          placeholder="Enter your email"
+          placeholder="Enter email"
         ></Input>
         <Input
           label="Password"
-          placeholder="Your password"
+          placeholder="Enter password"
         ></Input>
         <Input
           label="Confirm Password"

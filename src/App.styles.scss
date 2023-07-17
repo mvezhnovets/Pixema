@@ -25,6 +25,7 @@ body {
   color: var(--secondary-color);
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -43,4 +44,8 @@ h2 {
   font-size: 24px;
   line-height: 36px;
   color: var(--background-light-dark);
+}
+
+#root {
+  overflow: hidden;
 }

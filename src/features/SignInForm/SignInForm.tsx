@@ -12,20 +12,20 @@ export const SignInForm = () => {
       <div className={signInStyle.input}>
         <Input
           label="Email"
-          placeholder="Enter your email"
+          placeholder="Enter email"
         ></Input>
         <Input
           label="Password"
-          placeholder="Enter your email"
+          placeholder="Enter password"
         ></Input>
-        <Button
-          className={signInStyle.button}
-          text="Sign In"
-        ></Button>
-        <p>
-          Don`t have an account? <Link to={'/signUp'}>Sign Up</Link>
-        </p>
       </div>
+      <Button
+        className={signInStyle.button}
+        text="Sign In"
+      ></Button>
+      <p>
+        Don`t have an account? <Link to={'/signUp'}>Sign Up</Link>
+      </p>
     </form>
   );
 };
